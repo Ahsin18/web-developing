@@ -1,0 +1,22 @@
+div {
+    background-color: rgb(109, 108, 110);
+}
+
+.class{
+    color:red;
+}
+
+style
+{
+    background-color: blue;
+}
+
+*{
+    text-align: center;
+    text-decoration: underline;
+
+}
+p{
+    font-size: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

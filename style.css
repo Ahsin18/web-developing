@@ -1,0 +1,55 @@
+.class
+{
+    color:blue
+}
+
+#id
+{
+    color:blueviolet
+}
+
+*{
+    background-color: rgb(171, 214, 214);
+}
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.5Fz4nfDpG7wjz7yaRpg81gHaE7?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-attachment: fixed;
+}
+
+*{
+    text-shadow: 100px;
+}
+
+#div1{
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 10px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 10px;
+    background-color:red;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#div3{
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 10px;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#box{
+    border: 1px solid black;
+}
