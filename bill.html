@@ -1,0 +1,95 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODIE CAFE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: aquamarine;
+        }
+        table {
+            margin: 0 auto;
+            width: 50%;
+            border-collapse: collapse;
+            background-color: skyblue;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color:  black;
+            color: antiquewhite;
+        }
+        .calculate-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: black;
+            color: antiquewhite;
+            border: none;
+            cursor: pointer;
+        }
+        .calculate-btn:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>FOODIE CAFE</h1>
+
+    <form>
+        <table border="1">
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>Burger</td>
+                <td>89.00</td>
+                <td><input type="number" value="0" min="0"></td>
+            </tr>
+            <tr>
+                <td>Pizza</td>
+                <td>119.00</td>
+                <td><input type="number" value="0" min="0"></td>
+            </tr>
+            <tr>
+                <td>French Fries</td>
+                <td>49.00</td>
+                <td><input type="number" value="0" min="0"></td>
+            </tr>
+            <tr>
+                <td>Mojitos</td>
+                <td>89.00</td>
+                <td><input type="number" value="0" min="0"></td>
+            </tr>
+            <tr>
+                <td>Nuggets</td>
+                <td>99.00</td>
+                <td><input type="number" value="0" min="0"></td>
+            </tr>
+            <tr>
+                <td>SandWitch</td>
+                <td>69.00</td>
+                <td><input type="number" value="0" min="0"></td>
+            </tr>
+            <tr>
+                <td>MilkShakes</td>
+                <td>79.00</td>
+                <td><input type="number" value="0" min="0"></td>
+            </tr>
+        </table>
+
+        <button type="button" class="calculate-btn">Calculate Total</button>
+
+        <h3>Total: ₹ <span id="total">0.00</span></h3>
+    </form>
+    <script src="bill.js"></script>
+</body>
+</html>
